@@ -8,24 +8,24 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-}
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 /* Add some padding inside the card container */
 .cardcontainer {
     padding: 2px 16px;
 }
-.card {
+.card {  
+/* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     margin-left: 10px;
     margin-bottom: 10px;
+	
     }
 </style>
 <body class="w3-theme-l5">
@@ -70,13 +70,13 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}.card {
   <!-- The Grid -->
   <div class="w3-row">
     <!-- Left Column -->
-    <div class="w3-col m3">
+    <div class="w3-col m4">
     <div class="card">
   <img src="professor1.jpg" alt="Avatar" style="width:100%">
   <div class="cardcontainer">
     <h4><b>Professor John Doe</b></h4> 
     <p>Architect & Engineer</p>
-      <p>Email: jdoe@ltu.edu</p>
+      <p>Email: <a href="mailto:jdoe@ltu.edu">jdoe@ltu</a></p>
       <p>Phone: 555-555-5555</p>
   </div>
   </div>
@@ -85,20 +85,20 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}.card {
   <div class="cardcontainer">
     <h4><b>Professor Robert Holdbooks</b></h4> 
     <p>Computer Science</p>
-      <p>Email: rholdbooks@ltu.edu</p>
+      <p>Email: <a href="mailto:rholdbooks@ltu.edu">rholdbooks@ltu</a></p>
       <p>Phone: 555-555-5555</p>
   </div>
   </div>
     </div>
     
     <!-- Middle Column -->
-  <div class="w3-col m3">
+  <div class="w3-col m4">
     <div class="card">
   <img src="professor2.jpg" alt="Avatar" style="width:100%">
   <div class="cardcontainer">
     <h4><b>Dr. Colin Moustache</b></h4> 
     <p>English</p>
-      <p>Email: cstache@ltu.edu</p>
+      <p>Email: <a href="mailto:cstache@ltu.edu">cstache@ltu</a></p>
       <p>Phone: 555-555-5555</p>
   </div>
   </div>
@@ -107,7 +107,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}.card {
   <div class="cardcontainer">
     <h4><b>Dr. Mary Simplemath</b></h4> 
     <p>Calculus & Algebra</p>
-      <p>Email: msimplemath@ltu.edu</p>
+      <p>Email: <a href="mailto:msimplemath@ltu.edu">msimplemath@ltu</a></p>
       <p>Phone: 555-555-5555</p>
   </div>
   </div>
@@ -117,23 +117,24 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}.card {
     
     
     <!-- Right Column -->
-<div class="w3-col m3">
+<div class="w3-col m4">
     
     <div class="card">
   <img src="professor6.jpg" alt="Avatar" style="width:100%">
   <div class="cardcontainer">
     <h4><b>Dr. Susan Hall</b></h4> 
     <p>Management</p>
-      <p>Email: shall@ltu.edu</p>
+      <p>Email: <a href="mailto:shall@ltu.edu">shall@ltu.edu</a></p>
+	  
       <p>Phone: 555-555-5555</p>
   </div>
   </div>
       <div class="card">
-  <img src="professor3.jpg" alt="Avatar" style="width:100%;">
+  <img src="professor3.jpg" alt="Avatar" style="width:100%;height:265px;">
   <div class="cardcontainer">
     <h4><b>Dr. James Funpants</b></h4> 
     <p>Biology & Chemistry</p>
-      <p>Email: jfunpants@ltu.edu</p>
+      <p>Email: <a href="mailto:jfunpants@ltu.edu">jfunpants@ltu</a></p>
       <p>Phone: 555-555-5555</p>
   </div>
   </div>
